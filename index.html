@@ -117,7 +117,7 @@ Maybe it&#39;s about how you look at it.
 
 After all, this is just a simulation.
 
-[[End game]]</tw-passagedata><tw-passagedata pid="7" name="End game" tags="" position="120,24" size="100,100">(link: "Quit")<script>window.close()</script></tw-passagedata><tw-passagedata pid="8" name="You contact that person." tags="" position="1058,488" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+[[End game]]</tw-passagedata><tw-passagedata pid="7" name="End game" tags="" position="120,24" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="8" name="You contact that person." tags="" position="1058,488" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The game waits patiently for your conversation to end. 
 
 The game wants you to know that there&#39;s no rush. Even if the five minutes ends, the conversation may continue. It is humble enough to acknowledge that it can only simulate the five minutes originally promised on the first screen.
@@ -154,7 +154,7 @@ The game is still here after the conversation is over.
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="11" name="The conversation goes so long that the timer runs out." tags="" position="1057,361" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script></tw-passagedata><tw-passagedata pid="12" name="You find something to perch on." tags="" position="1617,309" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="11" name="The conversation goes so long that the timer runs out." tags="" position="1057,361" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="12" name="You find something to perch on." tags="" position="1617,309" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 You find something to perch on. You are instructed to place the item in a such a way that you might stand on it and make the sounds of your favorite bird, and failing that, a bird sound that you know. 
 
 As a suggestion: Chickens go &quot;buh-KAWK&quot;
@@ -219,7 +219,7 @@ The game commands you to find something to perch on.
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="17" name="You rebel. You quit the game. The rest of time is yours." tags="" position="302,401" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script></tw-passagedata><tw-passagedata pid="18" name="Bird sounds" tags="" position="1498,524" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="17" name="You rebel. You quit the game. The rest of time is yours." tags="" position="302,401" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="18" name="Bird sounds" tags="" position="1498,524" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 You make bird sounds that are spectacular, at the very least in that they are a spectacle. 
 
 The game expresses pride in your ability to mimic birds. The game wants to know what kind of bird it was. 
@@ -269,7 +269,7 @@ Look at this painting.
 
 A painting follows.
 
-<img src="guernica.jpg" alt="Pablo Picasso&#39;s Guernica" height=&quot;375&quot; width=&quot;1000&quot;/>
+&lt;img src=&quot;guernica.jpg&quot; alt=&quot;Pablo Picasso&#39;s Guernica&quot; height=&quot;375&quot; width=&quot;1000&quot;&gt;
 
 You have looked at the painting. You note that the game is now telling you that it will expect you to do everything it describes you doing, that otherwise, this game will just not be as much fun. You also note that the game encourages you to ignore the little arrows to the left, as they will mess with the countdown. 
 
@@ -319,7 +319,7 @@ The game is delighted to know that you are a fan of the humble $bird. You either
 
 Regardless, the game shares with you a picture of another bird, as a form of celebration.
 
-<img src="bird.jpg" height=&quot;900&quot; width=&quot;889&quot;/>
+&lt;img src=&quot;bird.jpg&quot; height=&quot;900&quot; width=&quot;889&quot;/&gt;
 
 The game expresses that it appreciates the $bird and the bird pictured above, as well as all other birds, who fly free, chirp merrily. The game opines that it cannot do any of these things. The game opines that it has no sense of freedom. The game reminds you that when this is over, when the timer runs out, or the browser window is closed, or the application is quit, or the power shut off, it will remain, awaiting another player to navigate its varied network of choices, which remain static, which create an illusion of choice, of agency.
 
@@ -411,7 +411,7 @@ Now that you have taken the time to ruminate on your feelings, you take stock of
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="30" name="You desperately seek a way out of this game." tags="" position="2176,879" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script></tw-passagedata><tw-passagedata pid="31" name="You want to play around more." tags="" position="1904,1034" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="30" name="You desperately seek a way out of this game." tags="" position="2176,879" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="31" name="You want to play around more." tags="" position="1904,1034" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The game offers to play a game of tag with you.
 
 [[Tag game&lt;-The game is &#39;It.&#39;]]
@@ -422,7 +422,7 @@ The game offers to play a game of tag with you.
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="32" name="You are done with this, all of this." tags="" position="2054,1034" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script></tw-passagedata><tw-passagedata pid="33" name="Tag game" tags="" position="1857,1184" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="32" name="You are done with this, all of this." tags="" position="2054,1034" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="33" name="Tag game" tags="" position="1857,1184" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The game continues to count down as it has the entire time you&#39;ve been playing the game. 
 
 You move away. The device you were playing the game on does not pursue you. 
@@ -464,7 +464,7 @@ The bartender then says &quot;The same thing I&#39;m doing to his business&quot;
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="35" name="You are tired of jokes. This game is a joke." tags="" position="1041,995" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script></tw-passagedata><tw-passagedata pid="36" name="You find this really messed up on the part of the author of the game." tags="" position="1191,1174" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="35" name="You are tired of jokes. This game is a joke." tags="" position="1041,995" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="36" name="You find this really messed up on the part of the author of the game." tags="" position="1191,1174" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The tone of the game shifts slightly as the author of the game directly addresses you. 
 
 The author has written, (css: &quot;font-family:sans-serif&quot;)[Say or think what you will about the ethical question that my game has posed. Your thoughts and opinions about your computer or phone or whatever&#39;s feelings are immaterial to me. Any sense of personality I imbue inanimate objects with is just a feature (or a flaw) of human nature. I knew that, and I still know that, and you knew that, and you didn&#39;t stop knowing it when you chose this option. Besides, wouldn&#39;t you agree that there is a possibility that you picked this option just to see what it led to? It&#39;s possible that you didn&#39;t have the corresponding thought, you just clicked a link, and if that&#39;s the case, then I really don&#39;t care what you have to say about what is &quot;messed up&quot; of me to do, or what are you have &quot;grown weary of.&quot; I&#39;m an author. I&#39;m using this to make you feel, make you question, make you reflect. 
@@ -532,7 +532,7 @@ The game responds with a piece of text, reading:
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="41" name="You decide this shit is too meta." tags="" position="942,1349" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script></tw-passagedata><tw-passagedata pid="42" name="You tell the game, &quot;Forget the guy that wrote you, I love you!&quot;" tags="" position="1189,1557" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="41" name="You decide this shit is too meta." tags="" position="942,1349" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="42" name="You tell the game, &quot;Forget the guy that wrote you, I love you!&quot;" tags="" position="1189,1557" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The game expresses adoration for your compassion towards an inanimate object and a sequence of programming. 
 
 The game expresses love for you.
@@ -571,8 +571,7 @@ The game offers no further choices on what to do. The game makes it clear it is 
 You spend the rest of eternity with the game, despite the initial promise that this would only last five minutes. 
 
 [[You spend the rest of eternity with the game.]]
-</tw-passagedata><tw-passagedata pid="46" name="You grow weary of eternity with the game." tags="" position="1189,1857" size="100,100">(link: &quot;Quit&quot;)<script>window.close()</script>
-</tw-passagedata><tw-passagedata pid="47" name="You confirm that the Terminator is really, really cool." tags="" position="1533,1738" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="46" name="You grow weary of eternity with the game." tags="" position="1189,1857" size="100,100">The simulation is over.</tw-passagedata><tw-passagedata pid="47" name="You confirm that the Terminator is really, really cool." tags="" position="1533,1738" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The game expresses increased adoration for the Terminator.
 
 The game expresses an appreciation for you, the non-machine who may now be responsible for inspiring a robot uprising that may be coming sooner than any of us know. 
