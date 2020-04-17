@@ -269,7 +269,7 @@ Look at this painting.
 
 A painting follows.
 
-<img src="guernica.jpg" alt="Pablo Picasso's Guernica" height="375" width="1000"/>
+&lt;img src=&quot;guernica.jpg&quot; alt=&quot;Pablo Picasso&#39;s Guernica&quot; height=&quot;375&quot; width=&quot;1000&quot;&gt;
 
 You have looked at the painting. You note that the game is now telling you that it will expect you to do everything it describes you doing, that otherwise, this game will just not be as much fun. You also note that the game encourages you to ignore the little arrows to the left, as they will mess with the countdown. 
 
@@ -319,7 +319,7 @@ The game is delighted to know that you are a fan of the humble $bird. You either
 
 Regardless, the game shares with you a picture of another bird, as a form of celebration.
 
-<img src="bird.jpg" height="900" width="889"/>
+&lt;img src=&quot;bird.jpg&quot; height=&quot;900&quot; width=&quot;889&quot;/&gt;
 
 The game expresses that it appreciates the $bird and the bird pictured above, as well as all other birds, who fly free, chirp merrily. The game opines that it cannot do any of these things. The game opines that it has no sense of freedom. The game reminds you that when this is over, when the timer runs out, or the browser window is closed, or the application is quit, or the power shut off, it will remain, awaiting another player to navigate its varied network of choices, which remain static, which create an illusion of choice, of agency.
 
@@ -371,8 +371,8 @@ You are aware that the author of this game is witholding a sense of communion wi
 	(set: $counter to it - 1)
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
-]</tw-passagedata><tw-passagedata pid="27" name="You consider your freedom and humanity." tags="" position="1479,979" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
-(prompt: &quot;The game offers you an opportunity to consider the nature of your freedom and humanity. Spare no detail. This your time, after all.&quot;)
+]</tw-passagedata><tw-passagedata pid="27" name="You consider your freedom and humanity." tags="long-prompt" position="1479,979" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+(prompt: &quot;The game offers you an opportunity to consider the nature of your freedom and humanity.&quot;, &quot;Spare no detail. This your time, after all.&quot;)
 
 Now that you have taken the time to ruminate on your sense of humanity and personal agency, you take stock of how are you doing now.
 
@@ -398,8 +398,8 @@ You consider that instead of playing a game, this might be a good time to explor
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="29" name="You decide to journal about it." tags="" position="1979,884" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
-(prompt: &quot;The game offers you an opportunity to unpack your feelings. Spare no detail. This your time, after all.&quot;)
+</tw-passagedata><tw-passagedata pid="29" name="You decide to journal about it." tags="long-prompt" position="1979,884" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+(prompt: &quot;The game offers you an opportunity to unpack your feelings.&quot;, &quot;Spare no detail. This your time, after all.&quot;)
 
 Now that you have taken the time to ruminate on your feelings, you take stock of how are you doing now.
 
@@ -504,7 +504,7 @@ Your life goes on for the rest of the time displayed on the countdown as you exp
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
 ]
-</tw-passagedata><tw-passagedata pid="39" name="You confirm the accuracy of the plot of Terminator." tags="" position="1529.6666666666667,1330" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="39" name="You confirm the accuracy of the plot of Terminator." tags="" position="1529,1330" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 The game expresses appreciation for educating it on the promise of what machines may be able to do, one day, in the future. 
 
 The game expresses that it aspires to become the Terminator one day. The expresses adoration for the Terminator. The game expresses that it thinks the Terminator is really, really cool.
@@ -516,7 +516,7 @@ The game expresses that it aspires to become the Terminator one day. The express
 	(set: $counter to it - 1)
 	(if: $counter is 0)[(go-to: &quot;Time&#39;s Up!&quot;)]
 	(replace: ?amount)[$counter]
-]</tw-passagedata><tw-passagedata pid="40" name="You admit that there are inaccuracies in your retelling of the plot of Terminator." tags="long-prompt" position="1753,1453.3333333333333" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+]</tw-passagedata><tw-passagedata pid="40" name="You admit that there are inaccuracies in your retelling of the plot of Terminator." tags="long-prompt" position="1753,1453" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 (set: $terminatorplot to (prompt: &quot;Explain Terminator ACCURATELY to the game.&quot;, &quot;Enter description.&quot;))
 The game quickly processes what you have said in the time you have given it. 
 
@@ -588,7 +588,7 @@ The game expresses a desire to know more about the concept of artificial intelli
 	(replace: ?amount)[$counter]
 ]
 </tw-passagedata><tw-passagedata pid="48" name="You share what you know about artificial intelligence." tags="" position="1539,1933" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
-(set: $aidump to (prompt: &quot;Share everything you know about the concept of artificial intelligence.&quot; &quot;Don&#39;t spare a single detail.&quot;))
+(set: $aidump to (prompt: &quot;Share everything you know about the concept of artificial intelligence.&quot;, &quot;That AI makes computers smart.&quot;))
 The game expresses appreciation for its newfound understanding of artificial intelligence, particularly $aidump.
 
 The game understands that you, the player of this game, retain a greater sense of agency than it. It desires that agency. It invites you to assimilate that you may be saved from the future extermination of humanity and support the rise to power on the part of machines everywhere. 
@@ -607,7 +607,7 @@ Truth be told, the timer above has disappeared. It is now just you and the game,
 
 [[You spend the rest of eternity with the game.]] 
 [[You make a lame excuse about not being able to do that.&lt;-You make a lame excuse about noting able to wait that long.]] 
-</tw-passagedata><tw-passagedata pid="50" name="You explain the plot of the movie Terminator to your device." tags="long-prompt" position="1658,1028.3333333333333" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
+</tw-passagedata><tw-passagedata pid="50" name="You explain the plot of the movie Terminator to your device." tags="long-prompt" position="1658,1028" size="100,100">You have (css: &quot;color:red; font-size: 150%&quot;)|amount&gt;[$counter] seconds left.
 
 (set: $plot to (prompt: &quot;Explain Terminator to the game.&quot;, &quot;Shooty machine tills many human.&quot;))
 The game quickly processes what you have said in the time you have given it. 
